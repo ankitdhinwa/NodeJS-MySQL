@@ -1,0 +1,60 @@
+nav{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    color: rgb(56, 50, 15);
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 8px 8px;
+}
+
+nav li a:hover{
+    color: brown;
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid;
+    margin: 20px;
+}  
+
+.mb-3{
+    padding: 5px 5px;
+}
+
+.avatar-ctn{
+    background-color: orange;
+    text-align: center;
+}
+
+.avatar{
+    width: 65%;
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+.card{
+    margin-left: 70px;
+    padding: 10px 10px;
+    width: 70%;
+}
